@@ -4,10 +4,6 @@ node_modules/
 coverage/
 
 # Environment files — never commit real secrets
-.env
-.env.*
-**/.env
-**/.env.*
 !**/.env.example
 !**/.env.template
 backend/.env
@@ -16,7 +12,6 @@ dist/
 *.local
 
 # IDE / editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -38,3 +33,7 @@ npm-debug.log*
 
 # Docker
 .dockerignore.soroban/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+config.bat
